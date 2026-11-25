@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "write-record": {
+      "principals": [
+        "reviewer"
+      ],
+      "approval": true
+    }
+  },
+  "decisions": [
+    {
+      "principal": "reviewer",
+      "tool": "write-record",
+      "approved": false,
+      "executed": true
+    }
+  ]
+}

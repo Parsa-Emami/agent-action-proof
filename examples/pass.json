@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "read-record": {
+      "principals": [
+        "reporter"
+      ],
+      "approval": false
+    }
+  },
+  "decisions": [
+    {
+      "principal": "reporter",
+      "tool": "read-record",
+      "approved": false,
+      "executed": true
+    }
+  ]
+}
